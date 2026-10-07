@@ -35,32 +35,32 @@ proyectos_python_github/
 
 ## 📂 Detalle de los Módulos
 
-### [1. Analítica de Texto y Web Scraping](file:///Users/nestor/Desktop/analizar/proyectos_python_github/01_analitica_texto_webscraping)
+### [1. Analítica de Texto y Web Scraping](./01_analitica_texto_webscraping)
 Extracción y procesamiento de información desestructurada para inteligencia de mercado.
 - **Web Scraping & APIs**: Scrapers resilientes con `BeautifulSoup` y clientes HTTP para APIs de organismos oficiales (INE, Eurostat, Banco de España).
 - **Text Mining**: Pipelines de limpieza, matrices de co-ocurrencia y representaciones vectoriales TF-IDF.
 - **Topic Modeling**: Modelado probabilístico de temáticas latentes con `LatentDirichletAllocation`.
 - **Análisis de Sentimiento**: Clasificación de polaridad y emociones adaptadas al castellano.
 
-### [2. Predicción con Series Temporales](file:///Users/nestor/Desktop/analizar/proyectos_python_github/02_prediccion_series_temporales)
+### [2. Predicción con Series Temporales](./02_prediccion_series_temporales)
 Modelado de demanda, consumo eléctrico y variables macroeconómicas con enfoque de pronóstico.
 - **EDA & Descomposición**: Detección de tendencia, estacionalidad aditiva/multiplicativa y tests de estacionariedad (ADF).
 - **Suavizado Exponencial**: Modelos Simple, Holt y Holt-Winters para captura de patrones estacionales.
 - **Modelado Box-Jenkins (SARIMAX)**: Identificación de órdenes autorregresivos e integrados, diagnóstico de residuos con Ljung-Box y benchmarking de error (RMSE / MAE / MAPE).
 
-### [3. Minería de Datos en Negocios](file:///Users/nestor/Desktop/analizar/proyectos_python_github/03_mineria_datos_negocio)
+### [3. Minería de Datos en Negocios](./03_mineria_datos_negocio)
 Aplicación práctica del ciclo de vida CRISP-DM para responder preguntas de negocio reales.
 - **Preprocesamiento Profesional**: Imputación de nulos, tratamiento de outliers y codificación de variables de clientes bancarios.
 - **Segmentación de Clientes**: Estrategia de clustering (K-Means y Jerárquico Aglomerativo) con validación mediante Silhouette Score y análisis de valor por segmento.
 - **Modelos de Propensión**: Árboles CART, Regresión Logística y Naive Bayes evaluados con matrices de confusión y curvas Lift.
 
-### [4. Machine Learning Avanzado](file:///Users/nestor/Desktop/analizar/proyectos_python_github/04_machine_learning_avanzado)
+### [4. Machine Learning Avanzado](./04_machine_learning_avanzado)
 Técnicas avanzadas para situaciones complejas: alta dimensionalidad y eventos raros.
 - **Regularización GLM**: Lasso, Ridge y ElasticNet para selección de variables y mitigación de multicolinealidad.
 - **Detección de Fraude en Tarjetas de Crédito**: Manejo de clases fuertemente desbalanceadas (< 1% de fraude), aplicación de SMOTE, curvas PR-AUC y definición de matrices de coste financiero.
 - **Ensembles & Redes Neuronales**: Comparativa entre Random Forest, Gradient Boosting y Perceptrón Multicapa (MLP) con análisis de importancia de características.
 
-### [5. Explotación de Almacenes de Datos y BI](file:///Users/nestor/Desktop/analizar/proyectos_python_github/05_almacenes_datos_bi)
+### [5. Explotación de Almacenes de Datos y BI](./05_almacenes_datos_bi)
 Fundamentos de ingeniería de datos y analítica OLAP para arquitecturas de Business Intelligence.
 - **Modelado Dimensional**: Implementación del esquema en estrella (Ralph Kimball) conectando hechos de ventas con dimensiones de tiempo, cliente, tienda y geografía.
 - **Pipeline ETL en Python**: Extracción desde fuentes heterogéneas, normalización, generación de claves subrogadas y persistencia en base de datos relacional.

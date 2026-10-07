@@ -1,17 +1,71 @@
-# Byte-compiled / optimized / DLL files
+# ==============================================================
+# .gitignore ROBUSTO PARA DATA SCIENCE & BUSINESS INTELLIGENCE
+# ==============================================================
+
+# 1. Byte-compiled / Python Cache
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Caches and environments
+# 2. Jupyter Notebook Checkpoints & Auto-saves
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
-env/
-venv/
-ENV/
-.env
+**/.ipynb_checkpoints/*
+.virtual_documents/
 
-# OS generated files
+# 3. Entornos Virtuales
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# 4. Variables de Entorno, Credenciales y Secretos
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.pkcs12
+*.pfx
+secrets.json
+credentials.json
+
+# 5. Bases de Datos Locales, Temporales y Locks
+*.duckdb
+*.duckdb.tmp
+*.duckdb.wal
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# 6. Logs y Diagnósticos
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 7. Archivos de Sistema Operativo (macOS, Windows, Linux)
 .DS_Store
 .DS_Store?
 ._*
@@ -19,8 +73,10 @@ ENV/
 .Trashes
 ehthumbs.db
 Thumbs.db
+desktop.ini
 
-# DuckDB local locks & temporary databases
-*.duckdb.tmp
-*.duckdb.wal
-*.duckdb
+# 8. Configuraciones de Editores e IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
