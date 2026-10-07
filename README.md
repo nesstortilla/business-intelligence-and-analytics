@@ -93,4 +93,7 @@ Fundamentos de ingeniería de datos y analítica OLAP para arquitecturas de Busi
 
 ## 📬 Contacto & Enlaces
 - **GitHub**: [github.com/nesstortilla](https://github.com/nesstortilla)
+- **LinkedIn:** [Néstor León del Campo](https://www.linkedin.com/in/nestor-leon-del-campo)
+- **Correo:** nestorleondelcampo@gmail.com
+
 
